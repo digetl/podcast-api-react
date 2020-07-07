@@ -1,26 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import PodcastContainer from './containers/PodcastContainer'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+         <PodcastContainer />
   );
 }
 
 export default App;
+
+//https://rss.itunes.apple.com/api/v1/gb/podcasts/top-podcasts/all/25/explicit.json
